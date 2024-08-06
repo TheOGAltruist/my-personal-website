@@ -1,0 +1,97 @@
+.index-html {
+    background-color: rgb(148, 50, 20);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.index-html-body {
+    display: block;
+}
+
+.index-html-header {
+    display: block;
+}
+
+.index-html-main {
+    padding-top: 150px;
+}
+
+.navbar {
+    position: fixed;
+    text-align: left;
+    box-shadow: 0 0 12px 0px rgb(49, 43, 43);
+    left: 0;
+    right: 0;
+    top: 0;
+    align-items: center;
+    background-color: rgb(49, 43, 43);
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#me {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+#nav-links {
+    display: inline-flex;
+    text-align: center;
+}
+
+#nav-links a {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+}
+
+.about-me-desc {
+    display: inline-flex;
+}
+
+#about-me-wording {
+    overflow-wrap: break-word;
+    font-size: 28px;
+    color: peachpuff;
+    float: left;
+    text-align: left;
+    padding: 2%;
+    word-spacing: 3px;
+}
+
+#about-me-img {
+    float: center;
+    border: 1px solid black;
+    padding-bottom: none;
+    display: flex;
+}
+
+#about-me-img img {
+    display: flex;
+    /* box-shadow: 1 1 1 1 black */
+}
+
+.learning-quote {
+    display: inline-block;
+    /* background-color: rgb(68, 177, 83); */
+    padding: 2%;
+    margin: 1%
+}
+
+#alvin-toffler-quote {
+    display: inline-block;
+    margin: 5px;
+    font-size: 30px;
+    font-family: comic;
+    font-style: italic;
+    text-align: center;
+    color: peachpuff;
+}
+
+.index-html-body>footer>nav>a {
+    text-decoration: none;
+}
