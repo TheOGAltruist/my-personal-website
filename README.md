@@ -1,2 +1,1 @@
-# my-personal-website
-For building my personal portfolio
+## For building my personal portfolio and showcasing my work.
