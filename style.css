@@ -199,24 +199,24 @@
     /* text-align: center; */
 }
 
-form {
+#form {
     display: inline-block;
     padding: 1em;
     border: 1px solid grey;
     border-radius: 1em;
 }
 
-form>ul>li {
+#form>ul>li {
     margin-top: 1em;
     text-align: right;
 }
 
-form>ul>li>label {
+#form>ul>li>label {
     display: inline-block;
     min-width: 90px;
 }
 
-form>ul>li>input,
+#form>ul>li>input,
 textarea {
     font: 1em sans-serif;
     width: 300px;
@@ -224,7 +224,7 @@ textarea {
     border: 1px solid #999;
 }
 
-.button {
+#submit {
     padding: 1px;
     margin: 1px;
     width: 100px;
