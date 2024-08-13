@@ -7,3 +7,12 @@ const welcomeSentence = "Hello World"
 // displaying via console.log
 console.log(welcomeSentence)
 
+// form control
+const form = document.querySelector('#form')
+const submitButton = document.querySelector('#submit')
+
+form.addEventListener('submit', (e) => {
+    submitButton.disabled = true
+    e.preventDefault()
+    window.location.href = window.location.origin + '/success.html'
+})

@@ -2,7 +2,8 @@
 
 .index-html,
 .about-html,
-.portfolio-html {
+.portfolio-html,
+.contacts-html {
     background-color: rgb(148, 50, 20);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -172,4 +173,59 @@
     background-color: rgb(84, 114, 24);
     color: peachpuff;
     font-size: large;
+}
+
+/* Styling for contacts.html */
+.contacts-html-main {
+    padding-top: 100px;
+    text-align: center;
+    color: rgb(245, 187, 136);
+}
+
+.contacts-html-main>h2 {
+    font-size: 3.8em;
+    vertical-align: middle;
+    color: rgb(245, 187, 136);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.contacts-html-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+#form {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+
+#form>ul>li {
+    margin-top: 1em;
+    text-align: right;
+}
+
+#form>ul>li>label {
+    display: inline-block;
+    min-width: 90px;
+}
+
+#form>ul>li>input,
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+#submit {
+    padding: 1px;
+    margin: 1px;
+    width: 100px;
 }
