@@ -19,6 +19,7 @@
     display: block;
 } */
 
+
 .index-html-main {
     padding-top: 150px;
 }
@@ -54,6 +55,11 @@
     font-size: 20px;
     color: white;
     margin: 10px;
+}
+
+#nav-links a:hover {
+    color: red;
+    text-decoration: none;
 }
 
 .about-me-desc {
