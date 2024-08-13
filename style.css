@@ -151,6 +151,8 @@
 /* Style for portfolio.html */
 
 .portfolio-html-main {
+    display: flex;
+    flex-direction: column;
     padding-top: 100px;
     margin-left: 10%;
     margin-right: 10%;
